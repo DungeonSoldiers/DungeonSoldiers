@@ -1,0 +1,364 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.6f1 (8c4e826ba445) revision 9195138'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 16319 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2021.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/migue/Documentos/GitHub/DungeonSoldiers
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65033
+Successfully changed project path to: C:/Users/migue/Documentos/GitHub/DungeonSoldiers
+C:/Users/migue/Documentos/GitHub/DungeonSoldiers
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 173.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.6f1 (8c4e826ba445)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/migue/Documentos/GitHub/DungeonSoldiers/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8088 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2021.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2021.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/2021.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2021.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2021.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.158864 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 52.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.094 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4095ms)
+		BeginReloadAssembly (2941ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (743ms)
+			LoadAssemblies (2946ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (411ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.490192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 54.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.130 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6131ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (5860ms)
+			LoadAssemblies (2922ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (623ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (2219ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (1255ms)
+				ProcessInitializeOnLoadMethodAttributes (820ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2425 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (56.5 KB). Loaded Objects now: 2893.
+Memory consumption went from 114.3 MB to 114.3 MB.
+Total: 3.313700 ms (FindLiveObjects: 0.214300 ms CreateObjectMapping: 0.129300 ms MarkObjects: 2.894300 ms  DeleteObjects: 0.075000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81293.760140 seconds.
+  path: Assets/Scripts/DungeonSoldiers
+  artifactKey: Guid(43518f6d525ec014dbc160f26c30c95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers using Guid(43518f6d525ec014dbc160f26c30c95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bcc10884781238fba52f7fd5367de1') in 0.008365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(b34879aae615b6d4e9ae462c8597a663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(b34879aae615b6d4e9ae462c8597a663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afa9e7cc0c1be0c54db2248201fc5b7') in 0.005513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/DungeonSoldiers/Animações/AnimacaoScript.cs
+  artifactKey: Guid(57efef4df25519d4c9f7d34598f76d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/Animações/AnimacaoScript.cs using Guid(57efef4df25519d4c9f7d34598f76d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73f1144708421b7e4e636736b62356e') in 0.035073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/DungeonSoldiers/Animações
+  artifactKey: Guid(0cc12d6db13b63d49903da0b2f69d71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/Animações using Guid(0cc12d6db13b63d49903da0b2f69d71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0384c43cf5624540900a930860268e98') in 0.005637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.181954 seconds.
+  path: Assets/Scripts/DungeonSoldiers/Animações/SprintAnimationScript.cs
+  artifactKey: Guid(7b51a41dad7ea6f4fbefad7277d070e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/Animações/SprintAnimationScript.cs using Guid(7b51a41dad7ea6f4fbefad7277d070e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06b5ea0be7868b30541fab950ee2c95') in 0.005888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.415480 seconds.
+  path: Assets/Scripts/DungeonSoldiers/Animações/MorteAnimacao.cs
+  artifactKey: Guid(bb8084e5f4835b142b4e8f7b0f143e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/Animações/MorteAnimacao.cs using Guid(bb8084e5f4835b142b4e8f7b0f143e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339b9c4d45aa02eb57e1702fa336c4f9') in 0.006181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.334828 seconds.
+  path: Assets/Scripts/DungeonSoldiers/Animações/AttackAnimation.cs
+  artifactKey: Guid(d67d7a0a65c7c9d458780549c7f7e5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/Animações/AttackAnimation.cs using Guid(d67d7a0a65c7c9d458780549c7f7e5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48412b83d26c991dec45685583d6b951') in 0.006296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 183.728746 seconds.
+  path: Assets/Scripts/DungeonSoldiers/Managers
+  artifactKey: Guid(029a9727d90b27d4392e1bfcd2dd355d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/Managers using Guid(029a9727d90b27d4392e1bfcd2dd355d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e6c480a19c97abf28f0e0e283cd0e8') in 0.007194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.676140 seconds.
+  path: Assets/Scripts/DungeonSoldiers/Managers/EnemiesManager.cs
+  artifactKey: Guid(96c0514b777b48043987487ca90c71ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/Managers/EnemiesManager.cs using Guid(96c0514b777b48043987487ca90c71ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17998fd7b92da094ed326c8f433e07b9') in 0.005929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.843981 seconds.
+  path: Assets/Scripts/DungeonSoldiers/Managers/WeaponManager.cs
+  artifactKey: Guid(dc3d288b1d9dcb743b9dd2cd3a1ab948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/Managers/WeaponManager.cs using Guid(dc3d288b1d9dcb743b9dd2cd3a1ab948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad95c0a20b138d1ccd4ffebfeb492c5') in 0.006743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.598229 seconds.
+  path: Assets/Scripts/DungeonSoldiers/Managers/zoneManager.cs
+  artifactKey: Guid(02e1925354801544eaa5f6078e0cd38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/Managers/zoneManager.cs using Guid(02e1925354801544eaa5f6078e0cd38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2701fbc834ec7b29a8268a01c0735982') in 0.007352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.437089 seconds.
+  path: Assets/Scenes/DungeonSoldiers.unity
+  artifactKey: Guid(27cfc9238c00bb445aec33727bdc0897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DungeonSoldiers.unity using Guid(27cfc9238c00bb445aec33727bdc0897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e56c11f698a4383ac30ff2862b1460') in 0.015984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 246.027405 seconds.
+  path: Assets/Scripts/DungeonSoldiers/AtivarBarraBoss.cs
+  artifactKey: Guid(e34717aae0a70ad42949e51fe06d05bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/AtivarBarraBoss.cs using Guid(e34717aae0a70ad42949e51fe06d05bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019e0a6ac39510f4244f438891056826') in 0.006705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.430868 seconds.
+  path: Assets/Scripts/DungeonSoldiers/automatedDialog.cs
+  artifactKey: Guid(208d5f2290fa3514a9751b83c0fbff70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/automatedDialog.cs using Guid(208d5f2290fa3514a9751b83c0fbff70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e4ccf2c1dbf074d9b15321d467cb11') in 0.005720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 161.878569 seconds.
+  path: Assets/Scripts/DungeonSoldiers/bulletDetector.cs
+  artifactKey: Guid(5414257e7dcb34443bd0ea168b7c8dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/bulletDetector.cs using Guid(5414257e7dcb34443bd0ea168b7c8dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb3025c691ff7e27205d5a93bb82533') in 0.006416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.159861 seconds.
+  path: Assets/Scripts/DungeonSoldiers/bulletScript.cs
+  artifactKey: Guid(c2d85033db01ca34d8b79d47e9b7d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/bulletScript.cs using Guid(c2d85033db01ca34d8b79d47e9b7d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b82c93f9de33c0ac3df30a529421a76') in 0.006679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.316176 seconds.
+  path: Assets/Scripts/DungeonSoldiers/CameraController.cs
+  artifactKey: Guid(341e0f0ab12d28f47b3000cd51f85be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/CameraController.cs using Guid(341e0f0ab12d28f47b3000cd51f85be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976690bd50f559a49f07a39965097c47') in 0.006358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.505152 seconds.
+  path: Assets/Scripts/DungeonSoldiers/DarDano.cs
+  artifactKey: Guid(c262e6a508fb7ef44b08e9e4e8b7ace1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/DarDano.cs using Guid(c262e6a508fb7ef44b08e9e4e8b7ace1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72762bb0d37ff0dd9b9a7803da1cf679') in 0.005874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.743289 seconds.
+  path: Assets/Scripts/DungeonSoldiers/Dialogo.cs
+  artifactKey: Guid(2bfef7e3d7037a944aababb3b5cb6186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/Dialogo.cs using Guid(2bfef7e3d7037a944aababb3b5cb6186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab60e3c8660e620396f8eca42b7bc3a') in 0.005817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 228.062736 seconds.
+  path: Assets/Scripts/DungeonSoldiers/DialogoFinal.cs
+  artifactKey: Guid(62bf8f7cb39db564dbd46a2f6d7fde67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/DialogoFinal.cs using Guid(62bf8f7cb39db564dbd46a2f6d7fde67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4099f880496dfb58254a5e6dead1649b') in 0.006867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.947010 seconds.
+  path: Assets/Scripts/DungeonSoldiers/EnemyAI.cs
+  artifactKey: Guid(d703a3b27661ebe4990afffbdc24cf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/EnemyAI.cs using Guid(d703a3b27661ebe4990afffbdc24cf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220fbd218f5f5b2b97a5c48bcf900912') in 0.005864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 187.571074 seconds.
+  path: Assets/Scripts/DungeonSoldiers/Espada.cs
+  artifactKey: Guid(2dc0f4f2647afeb4fbc39813ec8e1e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/Espada.cs using Guid(2dc0f4f2647afeb4fbc39813ec8e1e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988ebd6fdc691efc0013b76517b349ea') in 0.005745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.023941 seconds.
+  path: Assets/Scripts/DungeonSoldiers/finishQuest.cs
+  artifactKey: Guid(557ca40a4651fad40b5361457a35db4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/finishQuest.cs using Guid(557ca40a4651fad40b5361457a35db4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d670ae99062e9cbc5f360acbcbd61e') in 0.005895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.500737 seconds.
+  path: Assets/Scripts/DungeonSoldiers/menuScript.cs
+  artifactKey: Guid(fb98a50cf23913b4780fb43c27903a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/menuScript.cs using Guid(fb98a50cf23913b4780fb43c27903a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0be783cf7525bb4ac95f044d577fd41') in 0.005875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 192.978974 seconds.
+  path: Assets/Scripts/DungeonSoldiers/PlayerMovement.cs
+  artifactKey: Guid(86e6e15277307124f809f4ccce7dd4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/PlayerMovement.cs using Guid(86e6e15277307124f809f4ccce7dd4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1922e582bd3f9ba803b591ceb645cb60') in 0.006602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.664464 seconds.
+  path: Assets/Scripts/DungeonSoldiers/PortaScript.cs
+  artifactKey: Guid(d4a658c0bb26fca42a5d93b0f70fc897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/PortaScript.cs using Guid(d4a658c0bb26fca42a5d93b0f70fc897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9554f2427cddd94b29adbde21e7850') in 0.006001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.487572 seconds.
+  path: Assets/Scripts/DungeonSoldiers/radioScript.cs
+  artifactKey: Guid(9d3adb166266c0c4da19898faf753361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/radioScript.cs using Guid(9d3adb166266c0c4da19898faf753361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36195c517f611130025f74131ec3c57') in 0.006030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.048978 seconds.
+  path: Assets/Scripts/DungeonSoldiers/swordColliderScript.cs
+  artifactKey: Guid(24b659543385bf74a9e09cb0e215c643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/swordColliderScript.cs using Guid(24b659543385bf74a9e09cb0e215c643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e297c320413b98b51c92ee7adbc223') in 0.006574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.815429 seconds.
+  path: Assets/Scripts/DungeonSoldiers/VidaDar.cs
+  artifactKey: Guid(c8d6a3dca948e164ba9d917645924b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/VidaDar.cs using Guid(c8d6a3dca948e164ba9d917645924b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6e9f76825958c51c6d1c95e9cdfc4a') in 0.006118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.318989 seconds.
+  path: Assets/Scripts/DungeonSoldiers/VidaNPC.cs
+  artifactKey: Guid(31e1e736fa21fdf4488e94a19e8891b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/VidaNPC.cs using Guid(31e1e736fa21fdf4488e94a19e8891b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72678ce9981530098d3fed8df737a60f') in 0.006134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.100697 seconds.
+  path: Assets/Scripts/DungeonSoldiers/VidaPlayer.cs
+  artifactKey: Guid(d2eb1550d3e0bc54abbb3faa4f43ddd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/VidaPlayer.cs using Guid(d2eb1550d3e0bc54abbb3faa4f43ddd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d1a989ee840f9eae0ab68bfa776dfe') in 0.005856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.663870 seconds.
+  path: Assets/Scripts/DungeonSoldiers/WeaponAimScript.cs
+  artifactKey: Guid(74459e5cb13f7fe41a982b5e8353604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/WeaponAimScript.cs using Guid(74459e5cb13f7fe41a982b5e8353604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97bdc7202d2662177ccf528fd5a919b') in 0.006727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.765949 seconds.
+  path: Assets/Scripts/DungeonSoldiers/weaponGiver.cs
+  artifactKey: Guid(719e89dcf2d2db34992e8eb13ac0629e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/weaponGiver.cs using Guid(719e89dcf2d2db34992e8eb13ac0629e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be0f03c7be5aa692f1d58af3c4526a8') in 0.005698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.896118 seconds.
+  path: Assets/Scripts/DungeonSoldiers/WeaponScript.cs
+  artifactKey: Guid(21b367c4747f8024bbc2de921a31850d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DungeonSoldiers/WeaponScript.cs using Guid(21b367c4747f8024bbc2de921a31850d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6ef13bf15e38f8ba401cba7d151989') in 0.005365 seconds 
